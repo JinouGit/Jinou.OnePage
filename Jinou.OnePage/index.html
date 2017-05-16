@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/jinou.onepage.css" />
+    </head>
+    <body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+        <div id="onePage">
+            <div class="section">
+                <div class="overflow">
+
+                </div>
+            </div>
+            <div class="section">
+                <div class="overflow">
+
+                </div>
+            </div>
+            <div class="section">
+                <div class="overflow">
+
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mousewheel.js"></script>
+        <script src="js/jinou.onepage.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#onePage').onepage({
+//                    sectionColor: ["#4bbfc3", "#303030"],
+//                    navBackgroundColor: ["#303030", "#4bbfc3", "#303030"],
+                    anchor: ["section1", "section2", "section3"],
+//                    navTop: true,
+//                    scrollY: true
+                });
+            });
+
+        </script>
+    </body>
+</html>
