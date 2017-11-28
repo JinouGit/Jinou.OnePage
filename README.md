@@ -49,7 +49,8 @@ Et pour terminer, ajoutez avant la fin du body les scripts suivant :
   </script>
 ```
 
-Bien, que ce sont ces options :
+Bien, que sont ces options :
+
 sectionColor: Ici vous pourrez mettre les couleurs que vous souhaitez pour chaque sections
 
 navBackgroundColor: Idem que pour les sections mais avec le menu. Pour donné un effet sympatique ou si jamais la section à la même couleur que la navigation, ca peut aider à les distinguer
