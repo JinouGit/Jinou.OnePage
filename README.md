@@ -1,6 +1,6 @@
 # Jinou.OnePage
-Mini OnePage Pluging
-En premier lieu soyez indulgent, c'est mon premier pluging :)
+Mini OnePage Plugin
+En premier lieu soyez indulgent, c'est mon premier plugin :)
 
 Ce pluging est très facile d'utlisation. Un simple balisage strict au niveau html et le tour est joué.
 Voici un bref détaillé de comment il fonctionne : 
@@ -29,7 +29,7 @@ Maintenant, chaque block devra porté la class "section" ainsi qu'un enfant de c
       </div>
   </div>
 ```
-la class "overflow" permet au pluging de vous accordé une barre de scroll vertical si jamais votre contenu dépasse la section.
+la class "overflow" permet au plugin de vous accordé une barre de scroll vertical si jamais votre contenu dépasse la section.
 
 Et pour terminer, ajoutez avant la fin du body les scripts suivant :
 ```html
@@ -49,7 +49,7 @@ Et pour terminer, ajoutez avant la fin du body les scripts suivant :
   </script>
 ```
 
-Bien, que sont ces options :
+Bien, que sont ces options ?
 
 sectionColor: Ici vous pourrez mettre les couleurs que vous souhaitez pour chaque sections
 
@@ -59,7 +59,7 @@ anchor: Celui ci est très important, c'est grace à ca que tout le pluging va s
 
 navTop: Je conseil de le laissé à true. Cette option sert uniquement à déduire la hauteur du menu par rapport à la hauteur de la section. Dans certain cas il vous sera peut être utile de l'enlever.
 
-scrollY: Cette option s'accord avec la class "overflow" mentionné précédement. Vous pouvez donc activer ou désactivé la barre de scroll vertical de vos section. Celà dépendra de vos contenu.
+scrollY: Cette option s'accorde avec la class "overflow" mentionné précédement. Vous pouvez donc activer ou désactivé la barre de scroll vertical de vos section. Celà dépendra de vos contenu.
 
 [JQuery](https://github.com/jquery/jquery) ainsi que [jquery-mousewheel](https://github.com/jquery/jquery-mousewheel) sont requis pour ce pluging
 
